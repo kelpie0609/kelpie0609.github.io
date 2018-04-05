@@ -19,7 +19,12 @@
 <meta property="og:image" content="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/1mkd6kJs5fEMsvPZ9XswrWEa7VdUtVqT3YwNoRZe9iY!/m/dDMBAAAAAAAAnull&bo=WAL2AAAAAAADB44!&rf=photolist&t=5">
 <meta property="og:image" content="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/Za9j84VoPGOmxyWByOKLFIQTYbibTIao55FR5nzReBM!/m/dPMAAAAAAAAAnull&bo=7gEWAQAAAAARB8g!&rf=photolist&t=5">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2907906-5bc10de2c4c70ca0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700">
-<meta property="og:updated_time" content="2018-04-05T06:58:52.271Z">
+<meta property="og:image" content="http://ww4.sinaimg.cn/large/9fe4afa0gw1faljxemku5j20bo0as0tv.jpg">
+<meta property="og:image" content="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/cj3j2*V91CsxkJa4GgYxxc*GoRj7CH*2w7Ox3FYwus4!/m/dDMBAAAAAAAAnull&bo=VQJ*AQAAAAARBxk!&rf=photolist&t=5">
+<meta property="og:image" content="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/DVx3b1TMwqQRCaWu0leRsZ9zNPm1Q*lsn8kXkruqY0k!/m/dEUBAAAAAAAAnull&bo=GgTxAgAAAAARB90!&rf=photolist&t=5">
+<meta property="og:image" content="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/bHY8HAb.E1UByA8zgp8xIJG2V09GvtD1V03dKa5ixrw!/m/dAQBAAAAAAAAnull&bo=jgMQAgAAAAARB68!&rf=photolist&t=5">
+<meta property="og:image" content="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/3QgUSeBVQnqAyvQ1h73FTgoU6Y0hLeXmTD8fy2DP0rU!/m/dGEBAAAAAAAAnull&bo=9gMdAgAAAAARB9o!&rf=photolist&t=5">
+<meta property="og:updated_time" content="2018-04-05T08:22:23.420Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="新手建博客">
 <meta name="twitter:description" content="怎么从0开始建立自己的博客，如果有兴趣，点击吧！">
@@ -201,14 +206,33 @@
 <p>3.安装hexo<br>整个博客都是基于hexo来生成的，所以安装hexo必不可少。hexo的安装需要通过npm命令来运行，，安装完node.js后系统默认安装了npm包管理工具，由于无法访问npm的官方仓库（位于境外），推荐大家使用淘宝镜像进行替换。<br>在电脑任意空白处点击右键，选择<em>Git Bash Here</em>打开命令。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 <p>然后使用下面的命令安装hexo。</p>
-<figure class="highlight plain"><figcaption><span>npm install hexo-cli-g```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">为初始化博客空间，生成博客正常运行需要的文件，需要选择合适的地方创建hexo文件夹，如在D盘根目录下创建hexo文件，即D:/hexo，然后在该目录下打开*Git Bash Here*，输入命令行:</span><br><span class="line"></span><br><span class="line">``` </span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli-g</span><br></pre></td></tr></table></figure>
+<p>为初始化博客空间，生成博客正常运行需要的文件，需要选择合适的地方创建hexo文件夹，如在D盘根目录下创建hexo文件，即D:/hexo，然后在该目录下打开<em>Git Bash Here</em>，输入命令行:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
 <p>继续输入如下命令行，以安装依赖包：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo install</span><br></pre></td></tr></table></figure>
 <p>此时，D:/hexo文件夹下应该自动创建了建立网站需要的文件。</p>
 <p>4.本地运行<br>接下来可以尝试一下博客的真容了，运行以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-<p>然后用浏览器访问<a href="http://localhost:4000" target="_blank" rel="noopener"></a>，就可以看到一个漂亮的博客啦！但是这个博客只是在本地运行，别人是看不到的。hexo的默认主题是landscape(我挺喜欢)，发布的第一篇post是hello-world。第一次运行忘了截图，原谅我盗图如下：<br><img src="https://upload-images.jianshu.io/upload_images/2907906-5bc10de2c4c70ca0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="">  </p>
+<p>然后用浏览器访问<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>，就可以看到一个漂亮的博客啦！但是这个博客只是在本地运行，别人是看不到的。hexo的默认主题是landscape(我挺喜欢)，发布的第一篇post是hello-world。第一次运行忘了截图，原谅我盗图如下：<br><img src="https://upload-images.jianshu.io/upload_images/2907906-5bc10de2c4c70ca0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" alt="">  </p>
 <p>5.hexo的简单命令  </p>
+<blockquote>
+<p>$ hexo g #完整命令为hexo generate，用于生成静态文件到默认设置的public文件夹<br>$ hexo s #完整命令为hexo server，用于启动服务器，主要用来进行本地预览<br>$ hexo d #完整命令为hexo deploy，用于将本地文件发布到GitHub上<br>$ hexo n #完整命令为hexo new，用于新建一篇文章<br>$ hexo clean #清除缓存文件db.json和已经生成的静态文件public，网站显示异常时可以执行此条命令试试</p>
+</blockquote>
+<hr>
+<center><font color="orange"><font size="6"><strong>–注册和配置GitHub账户–</strong></font></font></center>
+
+<p>1.GitHub注册<br>打开<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a>，按要求输入用户名、邮箱、密码完成注册。<br><img src="http://ww4.sinaimg.cn/large/9fe4afa0gw1faljxemku5j20bo0as0tv.jpg" alt="">  </p>
+<p>2.创建代码库<br>repository相当于一个仓库，用来放置你的代码文件。登录GitHub账户，点击页面右上角+号，选择New repository,如下图所示：<br><img src="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/cj3j2*V91CsxkJa4GgYxxc*GoRj7CH*2w7Ox3FYwus4!/m/dDMBAAAAAAAAnull&amp;bo=VQJ*AQAAAAARBxk!&amp;rf=photolist&amp;t=5" alt=""><br>创建时，只需要填写repository name即可，格式必须<code>为账户名.github.io</code>，例如我创建的repository名为<code>kelpie609.github.io</code>，如下图：<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/DVx3b1TMwqQRCaWu0leRsZ9zNPm1Q*lsn8kXkruqY0k!/m/dEUBAAAAAAAAnull&amp;bo=GgTxAgAAAAARB90!&amp;rf=photolist&amp;t=5" alt=""><br>因为我已经创建了<code>kelpie609.github.io</code>，不能重复创建，所以有安全提示。按上图进行设置，点击<code>create repository</code>，done。  </p>
+<p>3.设置SSH keys<br>任意位置点击鼠标右键，选择<em>Git Bash</em>输入以下命令，连续三次回车，生成密钥。</p>
+<pre><code>$ ssh-keygen -t rsa -C&quot;xiaoxiao_lau@126.com&quot;
+</code></pre><p><img src="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/bHY8HAb.E1UByA8zgp8xIJG2V09GvtD1V03dKa5ixrw!/m/dAQBAAAAAAAAnull&amp;bo=jgMQAgAAAAARB68!&amp;rf=photolist&amp;t=5" alt=""><br>其中<a href="mailto:`xiaoxiao_lau@126.com" target="_blank" rel="noopener">`xiaoxiao_lau@126.com</a><code>为我注册的GitHub邮箱，需换成你的注册邮箱。密钥生成后得到两个文件：id_rsa和id_rsa.pub，默认存储路径是C:\Users\Administrator\.ssh。
+![](http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/kRiCIx15y94SBTWF7HZFebfoq3uXTWNgnVgZbq0vsiY!/m/dGgBAAAAAAAAnull&amp;bo=GwS*AAAAAAARB5A!&amp;rf=photolist&amp;t=5)  
+打开id_rsa.pub，建议使用markdownpad2打开，复制上面所有文字。打开GitHub账户，点击左上角头像，找到settings。  
+![](http://a3.qpic.cn/psb?/V13hi0bD3XiIF4/X5xHK80W9JujAMhAnEZpna1YVucvsbMxKNhf0ymFgMQ!/m/dFYBAAAAAAAAnull&amp;bo=hwFvAQAAAAARB9g!&amp;rf=photolist&amp;t=5)  
+然后按顺序点击</code>SSH and GPG keys<code>和</code>new SSH key<code>。
+![](http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/ptZpr5k6k9dylzqki7hx*vdpS1blpcX30xRsOmCwtyw!/m/dEUBAAAAAAAAnull&amp;bo=MQUEAgAAAAARBwI!&amp;rf=photolist&amp;t=5)  
+将复制好的文字粘至key处，随便起名，最后点击</code>Add SHH key`，done。<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/3QgUSeBVQnqAyvQ1h73FTgoU6Y0hLeXmTD8fy2DP0rU!/m/dGEBAAAAAAAAnull&amp;bo=9gMdAgAAAAARB9o!&amp;rf=photolist&amp;t=5" alt="">  </p>
 
       
 
