@@ -23,8 +23,11 @@
 <meta property="og:image" content="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/cj3j2*V91CsxkJa4GgYxxc*GoRj7CH*2w7Ox3FYwus4!/m/dDMBAAAAAAAAnull&bo=VQJ*AQAAAAARBxk!&rf=photolist&t=5">
 <meta property="og:image" content="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/DVx3b1TMwqQRCaWu0leRsZ9zNPm1Q*lsn8kXkruqY0k!/m/dEUBAAAAAAAAnull&bo=GgTxAgAAAAARB90!&rf=photolist&t=5">
 <meta property="og:image" content="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/bHY8HAb.E1UByA8zgp8xIJG2V09GvtD1V03dKa5ixrw!/m/dAQBAAAAAAAAnull&bo=jgMQAgAAAAARB68!&rf=photolist&t=5">
+<meta property="og:image" content="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/kRiCIx15y94SBTWF7HZFebfoq3uXTWNgnVgZbq0vsiY!/m/dGgBAAAAAAAAnull&bo=GwS*AAAAAAARB5A!&rf=photolist&t=5">
+<meta property="og:image" content="http://a3.qpic.cn/psb?/V13hi0bD3XiIF4/X5xHK80W9JujAMhAnEZpna1YVucvsbMxKNhf0ymFgMQ!/m/dFYBAAAAAAAAnull&bo=hwFvAQAAAAARB9g!&rf=photolist&t=5">
+<meta property="og:image" content="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/ptZpr5k6k9dylzqki7hx*vdpS1blpcX30xRsOmCwtyw!/m/dEUBAAAAAAAAnull&bo=MQUEAgAAAAARBwI!&rf=photolist&t=5">
 <meta property="og:image" content="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/3QgUSeBVQnqAyvQ1h73FTgoU6Y0hLeXmTD8fy2DP0rU!/m/dGEBAAAAAAAAnull&bo=9gMdAgAAAAARB9o!&rf=photolist&t=5">
-<meta property="og:updated_time" content="2018-04-05T08:22:23.420Z">
+<meta property="og:updated_time" content="2018-04-05T08:27:22.467Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="新手建博客">
 <meta name="twitter:description" content="怎么从0开始建立自己的博客，如果有兴趣，点击吧！">
@@ -226,13 +229,7 @@
 <p>2.创建代码库<br>repository相当于一个仓库，用来放置你的代码文件。登录GitHub账户，点击页面右上角+号，选择New repository,如下图所示：<br><img src="http://a4.qpic.cn/psb?/V13hi0bD3XiIF4/cj3j2*V91CsxkJa4GgYxxc*GoRj7CH*2w7Ox3FYwus4!/m/dDMBAAAAAAAAnull&amp;bo=VQJ*AQAAAAARBxk!&amp;rf=photolist&amp;t=5" alt=""><br>创建时，只需要填写repository name即可，格式必须<code>为账户名.github.io</code>，例如我创建的repository名为<code>kelpie609.github.io</code>，如下图：<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/DVx3b1TMwqQRCaWu0leRsZ9zNPm1Q*lsn8kXkruqY0k!/m/dEUBAAAAAAAAnull&amp;bo=GgTxAgAAAAARB90!&amp;rf=photolist&amp;t=5" alt=""><br>因为我已经创建了<code>kelpie609.github.io</code>，不能重复创建，所以有安全提示。按上图进行设置，点击<code>create repository</code>，done。  </p>
 <p>3.设置SSH keys<br>任意位置点击鼠标右键，选择<em>Git Bash</em>输入以下命令，连续三次回车，生成密钥。</p>
 <pre><code>$ ssh-keygen -t rsa -C&quot;xiaoxiao_lau@126.com&quot;
-</code></pre><p><img src="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/bHY8HAb.E1UByA8zgp8xIJG2V09GvtD1V03dKa5ixrw!/m/dAQBAAAAAAAAnull&amp;bo=jgMQAgAAAAARB68!&amp;rf=photolist&amp;t=5" alt=""><br>其中<a href="mailto:`xiaoxiao_lau@126.com" target="_blank" rel="noopener">`xiaoxiao_lau@126.com</a><code>为我注册的GitHub邮箱，需换成你的注册邮箱。密钥生成后得到两个文件：id_rsa和id_rsa.pub，默认存储路径是C:\Users\Administrator\.ssh。
-![](http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/kRiCIx15y94SBTWF7HZFebfoq3uXTWNgnVgZbq0vsiY!/m/dGgBAAAAAAAAnull&amp;bo=GwS*AAAAAAARB5A!&amp;rf=photolist&amp;t=5)  
-打开id_rsa.pub，建议使用markdownpad2打开，复制上面所有文字。打开GitHub账户，点击左上角头像，找到settings。  
-![](http://a3.qpic.cn/psb?/V13hi0bD3XiIF4/X5xHK80W9JujAMhAnEZpna1YVucvsbMxKNhf0ymFgMQ!/m/dFYBAAAAAAAAnull&amp;bo=hwFvAQAAAAARB9g!&amp;rf=photolist&amp;t=5)  
-然后按顺序点击</code>SSH and GPG keys<code>和</code>new SSH key<code>。
-![](http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/ptZpr5k6k9dylzqki7hx*vdpS1blpcX30xRsOmCwtyw!/m/dEUBAAAAAAAAnull&amp;bo=MQUEAgAAAAARBwI!&amp;rf=photolist&amp;t=5)  
-将复制好的文字粘至key处，随便起名，最后点击</code>Add SHH key`，done。<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/3QgUSeBVQnqAyvQ1h73FTgoU6Y0hLeXmTD8fy2DP0rU!/m/dGEBAAAAAAAAnull&amp;bo=9gMdAgAAAAARB9o!&amp;rf=photolist&amp;t=5" alt="">  </p>
+</code></pre><p><img src="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/bHY8HAb.E1UByA8zgp8xIJG2V09GvtD1V03dKa5ixrw!/m/dAQBAAAAAAAAnull&amp;bo=jgMQAgAAAAARB68!&amp;rf=photolist&amp;t=5" alt=""><br>其中<a href="mailto:xiaoxiao_lau@126.com" target="_blank" rel="noopener">xiaoxiao_lau@126.com</a>为我注册的GitHub邮箱，需换成你的注册邮箱。密钥生成后得到两个文件：id_rsa和id_rsa.pub，默认存储路径是C:\Users\Administrator.ssh。<br><img src="http://a1.qpic.cn/psb?/V13hi0bD3XiIF4/kRiCIx15y94SBTWF7HZFebfoq3uXTWNgnVgZbq0vsiY!/m/dGgBAAAAAAAAnull&amp;bo=GwS*AAAAAAARB5A!&amp;rf=photolist&amp;t=5" alt=""><br>打开id_rsa.pub，建议使用markdownpad2打开，复制上面所有文字。打开GitHub账户，点击左上角头像，找到settings。<br><img src="http://a3.qpic.cn/psb?/V13hi0bD3XiIF4/X5xHK80W9JujAMhAnEZpna1YVucvsbMxKNhf0ymFgMQ!/m/dFYBAAAAAAAAnull&amp;bo=hwFvAQAAAAARB9g!&amp;rf=photolist&amp;t=5" alt=""><br>然后按顺序点击<code>SSH and GPG keys</code>和<code>new SSH key</code>。<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/ptZpr5k6k9dylzqki7hx*vdpS1blpcX30xRsOmCwtyw!/m/dEUBAAAAAAAAnull&amp;bo=MQUEAgAAAAARBwI!&amp;rf=photolist&amp;t=5" alt=""><br>将复制好的文字粘至key处，随便起名，最后点击<code>Add SHH key</code>，done。<br><img src="http://a2.qpic.cn/psb?/V13hi0bD3XiIF4/3QgUSeBVQnqAyvQ1h73FTgoU6Y0hLeXmTD8fy2DP0rU!/m/dGEBAAAAAAAAnull&amp;bo=9gMdAgAAAAARB9o!&amp;rf=photolist&amp;t=5" alt="">  </p>
 
       
 
